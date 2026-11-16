@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>速汇星 TikTok 账务同步</title>
+  <meta name="description" content="速汇星 TikTok 账务同步的功能与 Google 授权范围。">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>速汇星 TikTok 账务同步</h1>
+    <p class="lead">从速汇星工作台同步客户账单、日消耗和账务凭证到 Google 表格及云端硬盘，方便按客户查阅和核对。</p>
+    <p>Google 授权页面显示的应用名称为 <span lang="en">SuHuiXing TikTok Sync</span>。</p>
+    <p>运营主体：速汇星。</p>
+
+    <section aria-labelledby="workflow">
+      <h2 id="workflow">同步如何运行</h2>
+      <p>具有办理权限的员工在 TikTok 客户管理中为指定客户开始首次同步。系统使用本地主账生成该客户的表格，将已登记的账务数据写入专用表格，并读回核对结果。</p>
+      <p>新建资源使用管理员配置的专用目录及私有权限。后续同步按已有客户绑定执行，表格和凭证的共享范围由具备相应权限的人员管理。</p>
+    </section>
+
+    <section aria-labelledby="permission">
+      <h2 id="permission">Google 授权范围</h2>
+      <p>本应用申请 <code>drive.file</code> 逐文件权限，用于操作本应用创建或已被明确授予访问权的文件。系统用这一权限创建客户表格、写入并读回账务内容，以及在选定目录管理相关凭证。</p>
+      <p><a href="privacy.html">阅读隐私说明</a></p>
+    </section>
+  </main>
+</body>
+</html>

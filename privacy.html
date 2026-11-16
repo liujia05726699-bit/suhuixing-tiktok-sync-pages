@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>隐私说明 · 速汇星 TikTok 账务同步</title>
+  <meta name="description" content="速汇星 TikTok 账务同步如何处理、保存和共享 Google 用户数据。">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <p><a href="index.html">返回应用首页</a></p>
+    <h1>速汇星 TikTok 账务同步隐私说明</h1>
+    <p class="lead">本说明适用于速汇星工作台中 TikTok 账务同步对 Google 表格及云端硬盘的访问。</p>
+    <p>运营主体：速汇星。生效日期：<time datetime="2026-11-16">2026-11-16</time>。</p>
+
+    <section aria-labelledby="data">
+      <h2 id="data">访问哪些数据</h2>
+      <ul>
+        <li>授权时核对 Google 账号邮箱和文件所有者标识，确认访问对象属于配置的账号。</li>
+        <li>通过 <code>drive.file</code> 读取专用表格和目录的标识、类型、所有权、权限和必要内容，用于检查目标及核对同步结果。</li>
+        <li>按已配置的客户范围，将工作台已有的打款、减款、充值、退款、账户资金、日消耗和汇总写入相应客户表格。员工上传且需随账单核对的打款凭证可存入专用目录。</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="purpose">
+      <h2 id="purpose">如何使用和共享</h2>
+      <p>数据仅用于确认授权账号、生成与更新客户账表、保存账务凭证、读回核对同步结果，以及处理相关故障。工作台本地主账是账务依据，Google 表格用于同步查阅和核对。</p>
+      <p>Google 接收数据以提供 Drive 和 Sheets 的文件存储及表格处理。新建的总控、空白母版和专用目录按所有者私有权限创建。业务工作簿和凭证可按授权人员在工作台办理的权限设置共享；采用链接共享时，持有该链接的人将获得相应的查看或编辑权限。</p>
+      <p>Google 用户数据的用途受 Google API 服务用户数据政策约束。<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 服务用户数据政策</a></p>
+    </section>
+
+    <section aria-labelledby="storage">
+      <h2 id="storage">如何保存和保护</h2>
+      <p>客户表格和凭证保存在授权账号的专用 Google Drive 资源中。工作台在受保护的运行目录保存 OAuth 刷新凭据、文件绑定和同步回执。同步连接使用 HTTPS，并按工作台权限和 Google 文件权限控制访问。</p>
+      <p>同步副本和回执保留至完成账务核对、处理待确认事项和满足适用的保存要求。收到删除请求后，运营方会核对请求人权限、涉及的文件及账务原件，再说明处理结果。Google 同步副本与工作台本地主账分别管理。</p>
+      <p>撤销 Google 授权会终止后续使用该授权进行的访问。已经创建的文件可由有相应权限的 Google 文件所有者管理。</p>
+    </section>
+
+    <section aria-labelledby="requests">
+      <h2 id="requests">撤销授权和提出数据请求</h2>
+      <p>授权账号可以在 Google 账号的第三方连接页面撤销本应用。需要查询同步内容、变更共享权限或提出删除请求时，请通过 Google 授权页所列的同一支持邮箱 <a href="mailto:liujia05726699@gmail.com">liujia05726699@gmail.com</a> 联系速汇星。<a href="https://myaccount.google.com/connections">管理 Google 账号的第三方连接</a></p>
+    </section>
+  </main>
+</body>
+</html>
